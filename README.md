@@ -403,15 +403,15 @@ Steps:
 
 Scripts: 
     
-#!/usr/bin/env python
-#
-# Extracts email addresses from one or more plain text files.
-#
-# Notes:
-# - Does not save to file (pipe the output to a file if you want it saved).
-# - Does not check for duplicates (which can easily be done in the terminal).
-#
-# (c) 2013  Dennis Ideler <ideler.dennis@gmail.com>
+//!/usr/bin/env python
+//
+// Extracts email addresses from one or more plain text files.
+//
+// Notes:
+// - Does not save to file (pipe the output to a file if you want it saved).
+// - Does not check for duplicates (which can easily be done in the terminal).
+//
+// (c) 2013  Dennis Ideler <ideler.dennis@gmail.com>
 
 from optparse import OptionParser
 import os.path
